@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+.article {
+  font-family: "Lexend Deca", sans-serif;
+  color: white;
+}
+.article__title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+}
+.article--sedans {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.article--suvs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.article--luxury {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.article__img {
+  width: 75px;
+  height: 47px;
+}
+.article .btn {
+  border-radius: 25px;
+  width: 150px;
+}
+.article .btn--sedans {
+  color: hsl(31deg, 77%, 52%);
+}
+.article .btn--suvs {
+  color: hsl(184deg, 100%, 22%);
+}
+.article .btn--luxury {
+  color: hsl(179deg, 100%, 13%);
+}
+.article .btn:hover {
+  background-color: transparent;
+  color: hsl(0deg, 0%, 95%);
+  border: 3px solid hsl(0deg, 0%, 95%);
+}/*# sourceMappingURL=style.css.map */
